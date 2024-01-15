@@ -1,0 +1,30 @@
+/* components/Statistics/Statistics.css */
+.statistics {
+  /* Dodaj styl dla kontenera statystyk */
+}
+
+.title {
+  /* Dodaj styl dla nagłówka */
+}
+
+.stat-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  margin-bottom: 8px;
+  color: white;
+}
+
+.label {
+  /* Dodaj styl dla etykiety statystyki */
+}
+
+.percentage {
+  /* Dodaj styl dla procentu statystyki */
+}

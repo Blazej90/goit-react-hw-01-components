@@ -38,6 +38,7 @@
 }
 
 .stats {
+  display: flex;
   list-style: none;
   font-size: large;
   margin: 0;
