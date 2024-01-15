@@ -1,29 +1,60 @@
 .profile {
-  /* Dodaj styl dla kontenera profilu */
+  height: 600px;
+  width: 400px;
+  border: 1px solid #b5b3b3;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .description {
-  /* Dodaj styl dla sekcji z opisem użytkownika */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .avatar {
-  /* Dodaj styl dla avatara użytkownika */
+  height: 130px;
+  padding-top: 30px;
 }
 
 .name,
 .tag,
 .location {
-  /* Dodaj styl dla nazwy użytkownika, tagu i lokalizacji */
+  font-size: x-large;
+}
+
+.name {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.location,
+.tag {
+  color: rgb(131, 128, 128);
+}
+
+.location {
+  padding-bottom: 70px;
 }
 
 .stats {
-  /* Dodaj styl dla sekcji statystyk */
+  list-style: none;
+  font-size: large;
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 10px;
+  background-color: #b5b3b3;
+}
+
+.stats > * {
+  margin-right: 10px;
 }
 
 .label {
-  /* Dodaj styl dla etykiety statystyki */
+  color: rgb(131, 128, 128);
 }
 
 .quantity {
-  /* Dodaj styl dla ilości statystyki */
+  font-weight: bold;
 }
