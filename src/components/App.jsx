@@ -8,18 +8,21 @@ import data from './Statistics/data.json/data.json';
 import friends from './FriendList/friends.json/friends.json';
 import transactions from './TransactionHistory/transactions.json/transactions.json';
 
+import styles from './App.module.css';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
-      }}
-    >
+    // <div
+    //   style={{
+    //     height: '100vh',
+    //     display: 'flex',
+    //     justifyContent: 'center',
+    //     alignItems: 'center',
+    //     fontSize: 40,
+    //     color: '#010101',
+    //   }}
+    // >
+    <div className={styles.container}>
       <Profile
         username={user.username}
         tag={user.tag}

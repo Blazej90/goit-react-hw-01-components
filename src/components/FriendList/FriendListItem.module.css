@@ -1,14 +1,18 @@
-.friend-list-item {
+.friendListItem {
   display: flex;
   align-items: center;
   margin-bottom: 16px;
+  height: 80px;
+  width: 200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .status {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  margin-right: 8px;
+  margin-right: 10px;
+  margin-left: 10px;
   background-color: red;
 }
 
@@ -16,12 +20,12 @@
   background-color: green;
 }
 
-.friend-list-avatar {
+.friendListAvatar {
   border-radius: 50%;
   margin-right: 8px;
 }
 
-.friend-list-name {
+.friendListName {
   font-size: 16px;
   font-weight: bold;
 }

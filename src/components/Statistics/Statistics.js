@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './Statistics.css';
+import styles from './Statistics.module.css';
 
 const generateRandomColor = () => {
   const letters = '0123456789ABCDEF';
@@ -13,18 +13,18 @@ const generateRandomColor = () => {
 
 const Statistics = ({ title, stats }) => {
   return (
-    <section className="statistics">
-      {title && <h2 className="title">{title}</h2>}
+    <section className={styles.statistics}>
+      {title && <h2 className={styles.title}>{title}</h2>}
 
-      <ul className="stat-list">
+      <ul className={styles.statList}>
         {stats.map(({ id, label, percentage }) => (
           <li
             key={id}
-            className="item"
+            className={styles.item}
             style={{ backgroundColor: generateRandomColor() }}
           >
-            <span className="label">{label}</span>
-            <span className="percentage">{percentage}%</span>
+            <span className={styles.tab}>{label}</span>
+            <span className={styles.percentage}>{percentage}%</span>
           </li>
         ))}
       </ul>
